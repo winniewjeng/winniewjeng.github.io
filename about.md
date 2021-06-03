@@ -3,27 +3,28 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<div class="message">
+Tell me a story.<br>
+<br>
+In this century, and moment, of mania,<br>
+Tell me a story.<br>
+<br>
+Make it a story of great distances, and starlight.<br>
+<br>
+The name of the story will be Time,<br>
+But you must not pronounce its name.<br>
+<br>
+Tell me a story of deep delight.<br>
+<br><br>
+Robert Penn Warren<br>
+</div>
+ 
+<br><br>
+I love computer science, literature, and astrophysics.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+On this site, you will find mostly class notes mixed in with some random personal musings.
 
-There are currently two themes built on Poole:
+Thank you for visiting!
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
