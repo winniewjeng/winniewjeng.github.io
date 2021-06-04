@@ -4,27 +4,28 @@ title: About
 ---
 
 <div class="message">
-Tell me a story.<br>
+Tell me a story<br>
 <br>
-In this century, and moment, of mania,<br>
-Tell me a story.<br>
+In this century, and moment, of mania<br>
+Tell me a story<br>
 <br>
-Make it a story of great distances, and starlight.<br>
+Make it a story of great distances and starlight<br>
 <br>
-The name of the story will be Time,<br>
-But you must not pronounce its name.<br>
+The name of the story will be Time<br>
+But you must not pronounce its name<br>
 <br>
-Tell me a story of deep delight.<br>
-<br><br>
-Robert Penn Warren<br>
+Tell me a story of deep delight<br>
+<br>
+<div class="credit">
+ Robert Penn Warren (1969)<br>
+</div>
 </div>
  
+<br>
+<div class="emoticon-divider">
+(ﾉ◕ヮ◕)ﾉ*✲ﾟ*｡⋆●｡+∗*､+♥⺣ﻌﾟ*｡*｡'☆彡ヽ(◕ﻌ◕)
+</div>
 <br><br>
-I love computer science, literature, and astrophysics.
+Thank you for visiting! I love literature, computer science, and astrophysics.
 
-On this site, you will find mostly class notes mixed in with some random personal musings.
-
-Thank you for visiting!
-
-
-
+On this site, you will find mostly class notes blended in with some fanciful musings and personal projects.

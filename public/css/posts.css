@@ -1,0 +1,10 @@
+.truth-table {
+  width: 10rem;
+  text-align: center;
+}
+
+.truth-table-container {
+  padding: 0 1.5rem 0 3rem;
+  display: flex;
+  align-items: center;
+}
