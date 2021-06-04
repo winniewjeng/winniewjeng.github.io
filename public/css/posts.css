@@ -8,3 +8,7 @@
   display: flex;
   align-items: center;
 }
+
+img[alt="Minecraft Gates"] {
+  width: 50%;
+}
