@@ -154,7 +154,7 @@ So if you convert the binary operands from the second example into decimals, the
 The PLA is developed by Texas Instrument in 1970.
 In its barest form, it is a set of programmable <code>AND</code> gates, followed by a set of programmable <code>OR</code> gates, followed by some buffers, on an integrated circuit plane.
 
-The PLA can be reconfigured in many forms, and it is used in building not just combinational logic units, but also sequential logic units--that's right! PLA is our bridge that links the two types of logical device into one integrated design.
+The PLA can be reconfigured in many forms, and it is used in building not just combinational logic circuits, but also sequential logic units--that's right! PLA is our bridge that links the two types of logical device into one integrated design.
 
 Next, we will examine sequential logic units and storage elements.
 <br>
