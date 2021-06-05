@@ -33,13 +33,13 @@ Schematically, P-type transistors are drawn with a little dot on the gate, and t
 
 N-type transistors are normally open and thus its behavior to voltage supply is complementary to that of an P-type transistor.
 
-When the N-type transistor is connected to ground, the transistor acts like an open switch between the source and the drain, creating an open circuit with high impedance. The current for circuit in such a state is said to be <em>floating</em> 🎈
+When the N-type transistor is connected to ground, the transistor acts like an open switch between the source and the drain, creating an open circuit with high impedance. The current for circuit in such a state is said to be <em>floating</em> 🎈🎈🎈
 
 If the N-type transistor is supplied with standard voltage of 1.2V, then it acts like a connected switch to the circuit, and light bulb on 💡
 
 N-type transistors have arrows drawn on its gate in the pointing direction from drain to source.
 
-A circuit that contains both P-type and N-type transistors is called a CMOS circuit, which stands for
+<br>A circuit that contains both P-type and N-type transistors is called a CMOS circuit, which stands for
 <em>complementary metal-oxide semiconductor</em> circuit.
 
 ## NOT Gate
@@ -85,3 +85,12 @@ NAND + NOT Gates
 ## Building Gates in Minecraft
 
 ![Minecraft Gates](/assets/minecraft gates.jpg)
+
+<footer>
+<br>
+Further reading: Introduction to Computing Systems: From Bits and Gates to C and Beyond, 3rd ed, Chapter 3.1-3.2
+<br><br>
+Software aid: Circuit Sims
+<br><br>
+Image source: Google
+</footer>

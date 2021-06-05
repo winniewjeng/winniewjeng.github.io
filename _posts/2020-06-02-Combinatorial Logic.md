@@ -133,7 +133,7 @@ The output result of a full adder with three inputs--first operand, second opera
 
 ### 3B) 4-Bit Adder
 
-Much like the full adder, a 4-bit adder takes two operands and perform addition, while accounting for the carry-in and carry-out bits.However, more interesting than the 1-bit adder, each of the operand is 4 bits (surprise suprise).
+Much like the full adder, a 4-bit adder takes two operands and perform addition, while accounting for the carry-in and carry-out bits. However, more interesting than the 1-bit adder, each of the operand is 4 bits (surprise suprise).
 
 The structure of a 4-bit adder is very interesting--it's chained by 3 full adder with 1 half-adder at the tail, which represents the most significant bit. The carry-out bit in the first three full adders becomes the carry-in bit in its next consecutive adder. Note that the last adder does not have a carry-out.
 
@@ -141,9 +141,9 @@ The structure of a 4-bit adder is very interesting--it's chained by 3 full adder
 
 ![FourBitAdder](/assets/4-bit adder.jpg)
 
-In the first case of <code>1011</code>(11)+ <code>0001</code>(1), the first full-adder has a carry-out, which is propagated to the second adder as a carry-in. In the last adder (or the most significant adder if you will), there is no carry-in and no carry-out. Therefore, there is no overflow of the final output value <code>1100</code>(13)
+In the first case of <code>1011</code>(11) +<code>0001</code>(1), the first full-adder has a carry-out, which is propagated to the second adder as a carry-in. In the last adder (or the most significant adder if you will), there is no carry-in and no carry-out. Therefore, there is no overflow of the final output value <code>1100</code>(13)
 
-In the second case of <code>1011</code>(11)+ <code>1000</code>(8), the last adder has no carry-in but a carry-out. There is overflow of the final output value <code>0011</code>(3) (!?!?)
+In the second case of <code>1011</code>(11) +<code>1000</code>(8), the last adder has no carry-in but a carry-out. There is overflow of the final output value <code>0011</code>(3) (!?!?)
 
 But how do we know if we will encounter an overflow with our 4-bit adder? Well, how many numbers can you represent with 4 bits? $$ 2^4 = 16$$ numbers! For unsigned integers, you can represent numbers 0 through 15.
 
