@@ -88,7 +88,7 @@ NAND + NOT Gates
 
 <footer>
 <br>
-Further reading: Introduction to Computing Systems: From Bits and Gates to C and Beyond, 3rd ed, Chapter 3.1-3.2
+Further reading: Introduction to Computing Systems: From Bits and Gates to C and Beyond, 3rd ed, Chapters 3.1-3.2
 <br><br>
 Software aid: Circuit Sims
 <br><br>
