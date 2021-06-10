@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Binary Search Trees
-category: Data Structure and Algorithm
+category: Data Structure & Algorithm
 ---
 
 Searching is the most fundamental operation in a tree. Every information retrieval or modification done to a tree begins with searching. Without the ability to consistently search a tree, it is impossible to perform any operation on a tree.

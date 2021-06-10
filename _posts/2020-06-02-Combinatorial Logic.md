@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Combinational Logic Circuits
-category: Computer Organization & Programming
+category: Organization & Programming
 ---
 
 There are two fundamental kinds of logic structures--combinational and sequential. Combinational logic structures are decision elements that output based on the current inputs. Unlike the sequential logic circuits, they do not have information storage ability.

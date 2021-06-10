@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sequential Logic Circuits
-category: Computer Organization & Programming
+category: Organization & Programming
 ---
 
 ![Memory Management](/assets/memory management.jpg)

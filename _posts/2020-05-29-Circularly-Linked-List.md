@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Singly Doubly Circularly Linked Lists
-category: Data Structure and Algorithm
+title: Circularly Linked Lists
+category: Data Structure & Algorithm
 ---
 
 Article coming soon....

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Transistors & Logic Gates
-category: Computer Organization & Programming
+category: Organization & Programming
 ---
 
 ![Droid Gates meme](/assets/droid family.jpg)
