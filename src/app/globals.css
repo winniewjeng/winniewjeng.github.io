@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+@import 'katex/dist/katex.min.css';
+
+@plugin '@tailwindcss/typography';
+@plugin 'daisyui' {
+  /* Names must match THEMES in src/features/theme/ThemeProvider.tsx */
+  themes:
+    light --default,
+    dark --prefersdark;
+}
+
+/* Let `dark:` variants follow daisyUI's data-theme as well as the OS setting. */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@layer base {
+  html {
+    scroll-padding-top: 5rem;
+  }
+}
+
+/* --- MDX content ------------------------------------------------------- */
+.prose .heading-anchor {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* rehype-pretty-code emits light + dark token colors as CSS variables. */
+.prose pre {
+  @apply border border-base-300 bg-base-200 text-base-content;
+}
+.prose code[data-theme],
+.prose code[data-theme] span {
+  color: var(--shiki-light);
+}
+[data-theme='dark'] .prose code[data-theme],
+[data-theme='dark'] .prose code[data-theme] span {
+  color: var(--shiki-dark);
+}
+.prose :not(pre) > code::before,
+.prose :not(pre) > code::after {
+  content: none;
+}
+.prose :not(pre) > code {
+  @apply rounded bg-base-200 px-1.5 py-0.5 font-normal;
+}
+.prose .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}

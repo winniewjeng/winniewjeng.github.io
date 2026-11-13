@@ -1,44 +1,22 @@
-# Ignore docs files
-_gh_pages
-_site
-.ruby-version
-.jekyll-cache
-_drafts
+# deps
+node_modules/
 
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.zip
-*.vi
-*~
+# build output
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
 
-# OS or Editor folders
+# generated content (Velite)
+.velite/
+public/static/
+
+# env / os / editor
+.env*
+!.env.example
 .DS_Store
-._*
-Thumbs.db
-.cache
-.project
-.settings
-.tmproj
-*.esproj
-nbproject
-*.sublime-project
-*.sublime-workspace
-.idea
+*.log
+README.md
 
-# Komodo
-*.komodoproject
-.komodotools
-
-# grunt-html-validation
-validation-status.json
-validation-report.json
-
-# Folders to ignore
-node_modules
-bower_components
+# local-only docs
+README.md

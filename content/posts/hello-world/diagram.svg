@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 140" font-family="ui-sans-serif, system-ui" font-size="14">
+  <rect width="480" height="140" fill="#f4f4f5" rx="12"/>
+  <g fill="#fff" stroke="#6366f1" stroke-width="2">
+    <rect x="20" y="45" width="120" height="50" rx="8"/>
+    <rect x="180" y="45" width="120" height="50" rx="8"/>
+    <rect x="340" y="45" width="120" height="50" rx="8"/>
+  </g>
+  <g fill="#18181b" text-anchor="middle">
+    <text x="80" y="75">content/*.mdx</text>
+    <text x="240" y="75">Velite (zod)</text>
+    <text x="400" y="75">Next.js pages</text>
+  </g>
+  <g stroke="#6366f1" stroke-width="2" marker-end="url(#a)">
+    <line x1="142" y1="70" x2="176" y2="70"/>
+    <line x1="302" y1="70" x2="336" y2="70"/>
+  </g>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0l10 5-10 5z" fill="#6366f1"/>
+    </marker>
+  </defs>
+</svg>
